@@ -1,8 +1,7 @@
 import { useRecoilState } from 'recoil'
 
 import Profile from "./Profile"
-import Links from "./Links"
-import Keys from "./Keys"
+import Identifier from "./Identifier"
 import Spotify from "./Spotify"
 import Services from "./Services"
 import Chat from "./Chat"
@@ -13,11 +12,10 @@ export default function ContentRenderer() {
     const [page, _] = useRecoilState(currentPage);
     return (
         <>
-            { page === Pages.Profile && <><Profile /><Spotify /></> }
-            { page === Pages.Links && <Links /> }
-            { page === Pages.Keys && <Keys /> }
-            { page === Pages.Services && <Services /> }
-            { page === Pages.Chat && <Chat /> }
+            {page === Pages.Profile && <><Profile /><Spotify /></>}
+            {page === Pages.Identifier && <Identifier />}
+            {page === Pages.Services && <Services />}
+            {page === Pages.Chat && <Chat />}
         </>
     )
 }

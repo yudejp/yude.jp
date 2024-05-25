@@ -2,6 +2,7 @@
     "translation": {
         "profile": "Profile",
         "links": "Links",
+        "identifier": "Identifier",
         "public_keys": "Public keys",
         "services": "Services",
         "chat": "Chat",

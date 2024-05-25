@@ -6,7 +6,7 @@ export default function Links() {
     return (
         <>
             <div className="rounded-lg w-full">
-              <div className="gap-x-6 gap-y-8 grid grid-cols-4 justify-between">
+                <div className="gap-x-6 gap-y-8 grid grid-cols-4 justify-between">
                     <div className="w-24 h-16">
                         <a href="https://x.com/yude_jp">
                             <FontAwesomeIcon className="w-24 h-11" icon={faXTwitter} />
@@ -147,5 +147,4 @@ export default function Links() {
             </div>
         </>
     )
-  }
-  
+}

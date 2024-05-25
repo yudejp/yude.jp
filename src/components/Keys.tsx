@@ -24,7 +24,6 @@ export default function Keys() {
                         <a className="underline" href="https://github.com/yude.keys">GitHub</a>&nbsp;<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                     </li>
                 </ul>
-
             </div>
         </>
     )

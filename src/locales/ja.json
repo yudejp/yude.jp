@@ -2,6 +2,7 @@
     "translation": {
         "profile": "プロフィール",
         "links": "リンク",
+        "identifier": "識別子",
         "public_keys": "公開鍵",
         "services": "サービス",
         "chat": "チャット",

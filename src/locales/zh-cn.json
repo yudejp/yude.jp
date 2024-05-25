@@ -2,6 +2,7 @@
     "translation": {
         "profile": "关于我",
         "links": "超级链接",
+        "identifier": "識別符",
         "public_keys": "公钥",
         "services": "服务",
         "chat": "聊天",
