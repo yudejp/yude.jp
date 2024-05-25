@@ -8,7 +8,6 @@ import LanguageMenu from "./components/LanguageMenu"
 import ContentRenderer from "./components/ContentRenderer"
 import Footer from "./components/Footer"
 import { ThemeProvider, ThemeSwitcher } from "./components/Theme"
-import Weather from "./components/Weather"
 
 import { useState, useEffect } from 'react';
 
