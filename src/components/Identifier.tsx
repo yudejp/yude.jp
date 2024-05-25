@@ -8,10 +8,10 @@ export default function Identifier() {
 
     return (
         <>
-            <p className="text-center mb-5 text-2xl">{t("links")}</p>
+            <h2 className="text-2xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("links")}</h2>
             <Links />
 
-            <p className="text-center mt-10 mb-5 text-2xl">{t("public_keys")}</p>
+            <h2 className="text-2xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1 mt-10">{t("public_keys")}</h2>
             <Keys />
         </>
     )

@@ -22,7 +22,7 @@ export default function Profile() {
     return (
         <>
             <div className="rounded-lg w-full">
-                <h2 className="text-xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("affiliation")}</h2>
+                <h2 className="text-2xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("affiliation")}</h2>
 
                 <ol className="relative border-s border-gray-700 left-2">
                     <li className="mb-2 ms-4">
@@ -65,7 +65,7 @@ export default function Profile() {
                     </a>
                 </p>
 
-                <h2 className="text-xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("basic_info")}</h2>
+                <h2 className="text-2xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("basic_info")}</h2>
 
                 <ul className="space-y-1 list-inside mt-2 ml-5">
                     <li className="items-center">
@@ -77,7 +77,7 @@ export default function Profile() {
                     </li>
                 </ul>
 
-                <h2 className="text-xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("licenses")}</h2>
+                <h2 className="text-2xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("licenses")}</h2>
                 <ul className="max-w-md space-y-1 ml-5 list-disc list-inside dark:text-gray-400">
                     <li>
                         プロジェクトセカイ カラフルステージ！ feat. 初音ミク フルコンボ楽曲 (MASTER) 300 曲 ({t("year/month", { year: 2024, month: localizedMonth(4) })})
