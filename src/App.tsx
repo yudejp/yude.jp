@@ -2,6 +2,7 @@ import { RecoilRoot } from 'recoil'
 
 import Mutuals from "./components/Mutuals"
 import Card from "./components/Card"
+import Misc from "./components/Misc"
 import VerticalMenu from "./components/VerticalMenu"
 import HorizontalMenu from "./components/HorizontalMenu"
 import LanguageMenu from "./components/LanguageMenu"
@@ -41,7 +42,7 @@ export default function App() {
 
   useEffect(() => {
     handleScroll();
-    window.scrollTo(0, 60)
+    window.scrollTo(0, 10)
 
     window.addEventListener('scroll', handleScroll);
     return () => {
@@ -55,16 +56,17 @@ export default function App() {
         <>
           <Mutuals />
           <div>
-            <div className={`sticky h-screen`} style={{ opacity: cardOpacity, marginTop: `60px` }}>
+            <div className={`sticky h-screen`} style={{ opacity: cardOpacity, marginTop: `-200px` }}>
               <div id="card" className="fixed py-5 -mt-20" style={{ top: `${cardY}px` }}>
                 <Card />
+                <Misc />
               </div>
             </div>
 
             <div className="grid justify-items-center">
               <div id="content" className="absolute dark:text-white sm:min-w-[565px]" style={{ top: `${contentY}px` }}>
                 <div className="grid grid-container md:grid-cols-5 gap-2 min-h-[70vh] w-3xl">
-                  <div className="sticky top-5 hidden md:block md:col-span-1">
+                  <div className="hidden md:block md:col-span-1">
                     <VerticalMenu />
                   </div>
                   <div className="sticky top-14 md:hidden">

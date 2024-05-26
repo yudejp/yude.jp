@@ -27,36 +27,38 @@ export default function VerticalMenu() {
 
     return (
         <RecoilRoot>
-            <ul className="text-lg font-medium text-center hover:cursor-pointer">
-                <li
-                    className={`w-full px-4 py-2 rounded-lg${page === Pages.Profile ? activeColor : ""}`}
-                    onClick={() => { setPage(Pages.Profile) }}
-                >
-                    <FontAwesomeIcon icon={faUser} className="w-10 h-10" />{" "}
-                    <p>{t("profile")}</p>
-                </li>
-                <li
-                    className={`w-full px-4 py-2 rounded-lg${page === Pages.Identifier ? activeColor : ""}`}
-                    onClick={() => { setPage(Pages.Identifier) }}
-                >
-                    <FontAwesomeIcon icon={faPassport} className="w-10 h-10" />{" "}
-                    <p>{t("identifier")}</p>
-                </li>
-                <li
-                    className={`w-full px-4 py-2 rounded-lg${page === Pages.Services ? activeColor : ""}`}
-                    onClick={() => { setPage(Pages.Services) }}
-                >
-                    <FontAwesomeIcon icon={faStar} className="w-10 h-10" />{" "}
-                    <p>{t("services")}</p>
-                </li>
-                <li
-                    className={`w-full px-4 py-2 rounded-lg${page === Pages.Chat ? activeColor : ""}`}
-                    onClick={() => { setPage(Pages.Chat) }}
-                >
-                    <FontAwesomeIcon icon={faComments} className="w-10 h-10" />{" "}
-                    <p>{t("chat")}</p>
-                </li>
-            </ul>
+            <div className="sticky top-5">
+                <ul className="text-lg font-medium text-center hover:cursor-pointer">
+                    <li
+                        className={`w-full px-4 py-2 rounded-lg${page === Pages.Profile ? activeColor : ""}`}
+                        onClick={() => { setPage(Pages.Profile) }}
+                    >
+                        <FontAwesomeIcon icon={faUser} className="w-10 h-10" />{" "}
+                        <p>{t("profile")}</p>
+                    </li>
+                    <li
+                        className={`w-full px-4 py-2 rounded-lg${page === Pages.Identifier ? activeColor : ""}`}
+                        onClick={() => { setPage(Pages.Identifier) }}
+                    >
+                        <FontAwesomeIcon icon={faPassport} className="w-10 h-10" />{" "}
+                        <p>{t("identifier")}</p>
+                    </li>
+                    <li
+                        className={`w-full px-4 py-2 rounded-lg${page === Pages.Services ? activeColor : ""}`}
+                        onClick={() => { setPage(Pages.Services) }}
+                    >
+                        <FontAwesomeIcon icon={faStar} className="w-10 h-10" />{" "}
+                        <p>{t("services")}</p>
+                    </li>
+                    <li
+                        className={`w-full px-4 py-2 rounded-lg${page === Pages.Chat ? activeColor : ""}`}
+                        onClick={() => { setPage(Pages.Chat) }}
+                    >
+                        <FontAwesomeIcon icon={faComments} className="w-10 h-10" />{" "}
+                        <p>{t("chat")}</p>
+                    </li>
+                </ul>
+            </div>
         </RecoilRoot>
     )
 }

@@ -3,12 +3,9 @@ import { faUser, faStar, faComments } from '@fortawesome/free-regular-svg-icons'
 import { faPassport } from "@fortawesome/free-solid-svg-icons"
 import { Pages } from "./VerticalMenu"
 
-import { RecoilRoot, atom, useRecoilState } from 'recoil'
+import { RecoilRoot, useRecoilState } from 'recoil'
 
-export const currentPage = atom({
-    key: 'page',
-    default: Pages.Profile,
-})
+import { currentPage } from "./VerticalMenu"
 
 export default function HorizontalMenu() {
     const [page, setPage] = useRecoilState(currentPage);
