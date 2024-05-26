@@ -64,10 +64,10 @@ export default function App() {
             <div className="grid justify-items-center">
               <div id="content" className="absolute dark:text-white sm:min-w-[565px]" style={{ top: `${contentY}px` }}>
                 <div className="grid grid-container md:grid-cols-5 gap-2 min-h-[70vh] w-3xl">
-                  <div className="hidden md:block md:col-span-1">
+                  <div className="sticky top-5 hidden md:block md:col-span-1">
                     <VerticalMenu />
                   </div>
-                  <div className="sticky top-5 md:hidden">
+                  <div className="sticky top-12 md:hidden">
                     <HorizontalMenu />
                   </div>
                   <div className="px-5 md:col-span-4 md:px-0">

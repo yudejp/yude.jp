@@ -16,7 +16,7 @@ export default function HorizontalMenu() {
 
     return (
         <RecoilRoot>
-            <div className="relative text-lg font-medium text-center hover:cursor-pointer grid grid-cols-5 grid-flow-col backdrop-blur-2xl bg-zinc-100/30 dark:bg-neutral-900/30 rounded-lg">
+            <div className="relative text-lg font-medium text-center hover:cursor-pointer grid grid-cols-4 grid-flow-col backdrop-blur-2xl bg-zinc-100/30 dark:bg-neutral-900/30 rounded-lg">
                 <div
                     className={`self-start py-3 rounded-lg${page === Pages.Profile ? activeColor : ""}`}
                     onClick={() => { setPage(Pages.Profile) }}
