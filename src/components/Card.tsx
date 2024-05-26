@@ -6,7 +6,6 @@ import { faXTwitter, faDiscord, faGithub } from '@fortawesome/free-brands-svg-ic
 import { useState, useEffect } from 'react';
 
 import Logo from "./Logo"
-import Misc from "./Misc"
 
 interface NowPlaying {
     album?: string

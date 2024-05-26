@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCake, faMapPin, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+import { faCake, faMapPin } from '@fortawesome/free-solid-svg-icons'
 import { useTranslation } from "react-i18next";
 
 export default function Profile() {
