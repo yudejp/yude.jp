@@ -22,6 +22,18 @@ export default function Profile() {
     return (
         <>
             <div className="rounded-lg w-full">
+                <h2 className="text-2xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("basic_info")}</h2>
+
+                <ul className="space-y-1 list-inside mt-2 ml-5">
+                    <li className="items-center">
+                        <span className="dark:text-gray-300"><FontAwesomeIcon icon={faCake} />&nbsp;
+                            <span className="dark:text-gray-50">{t("2001/11/19")}</span> {t("birth", { age: "22" })}</span>
+                    </li>
+                    <li className="items-center">
+                        <span className="dark:text-gray-300"><FontAwesomeIcon icon={faMapPin} />&nbsp;&nbsp;<span className="dark:text-gray-50">{t("location")}</span></span>
+                    </li>
+                </ul>
+
                 <h2 className="text-2xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("affiliation")}</h2>
 
                 <ol className="relative border-s border-gray-700 left-2">
@@ -31,10 +43,15 @@ export default function Profile() {
                             {t("year/month", { year: 2024, month: localizedMonth(4) })} &ndash;
                         </time>
                         <h3 className="text-lg font-semibold dark:text-white">
-                            <a href="https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%97%E3%83%AD%E3%83%90%E3%82%A4%E3%83%80">
-                                {t("isp")}
+                            <a href="https://www.iij.ad.jp/">
+                                Internet Initiative Japan Inc.
                             </a>
                         </h3>
+                        <p className="text-base font-normal dark:text-gray-400">
+                            <a href="https://bgp.he.net/AS2497">
+                                AS2497
+                            </a>
+                        </p>
                     </li>
                     <li className="mb-2 ms-4">
                         <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-gray-700"></div>
@@ -59,28 +76,13 @@ export default function Profile() {
                     </li>
                 </ol>
 
-                <p className="text-right">
-                    <a href="https://scrapbox.io/yude/%E9%81%8E%E5%8E%BB%E3%81%AE%E6%B4%BB%E5%8B%95%E7%AD%89">
-                        {t("past_activities")}&nbsp;<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                    </a>
-                </p>
-
-                <h2 className="text-2xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("basic_info")}</h2>
-
-                <ul className="space-y-1 list-inside mt-2 ml-5">
-                    <li className="items-center">
-                        <span className="dark:text-gray-300"><FontAwesomeIcon icon={faCake} />&nbsp;
-                            <span className="dark:text-gray-50">{t("2001/11/19")}</span> {t("birth", { age: "22" })}</span>
-                    </li>
-                    <li className="items-center">
-                        <span className="dark:text-gray-300"><FontAwesomeIcon icon={faMapPin} />&nbsp;&nbsp;<span className="dark:text-gray-50">{t("location")}</span></span>
-                    </li>
-                </ul>
-
                 <h2 className="text-2xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("licenses")}</h2>
                 <ul className="max-w-md space-y-1 ml-5 list-disc list-inside dark:text-gray-400">
                     <li>
                         プロジェクトセカイ カラフルステージ！ feat. 初音ミク フルコンボ楽曲 (MASTER) 300 曲 ({t("year/month", { year: 2024, month: localizedMonth(4) })})
+                    </li>
+                    <li>
+                        倉吉八幡宮 おみくじ 大吉 ({t("year/month", { year: 2023, month: localizedMonth(1) })})
                     </li>
                     <li>
                         IPA 基本情報技術者 ({t("year/month", { year: 2022, month: localizedMonth(4) })})
