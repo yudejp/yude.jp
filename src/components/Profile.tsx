@@ -48,9 +48,7 @@ export default function Profile() {
                             </a>
                         </h3>
                         <p className="text-base font-normal dark:text-gray-400">
-                            <a href="https://bgp.he.net/AS2497">
-                                AS2497
-                            </a>
+                            見習い
                         </p>
                     </li>
                     <li className="mb-2 ms-4">
