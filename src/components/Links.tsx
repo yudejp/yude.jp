@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTelegram, faXTwitter, faInstagram, faMastodon, faKeybase, faSteam, faLastfm, faTwitch, faSpotify } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTelegram, faXTwitter, faInstagram, faMastodon, faKeybase, faSteam, faLastfm, faTwitch, faSpotify, faAmazon } from '@fortawesome/free-brands-svg-icons'
 import { faAnglesRight } from '@fortawesome/free-solid-svg-icons'
 
 export default function Links() {
@@ -20,6 +20,14 @@ export default function Links() {
                             <FontAwesomeIcon className="w-24 h-11" icon={faMastodon} />
                             <span className="block dark:text-gray-400 text-center">
                                 Mastodon
+                            </span>
+                        </a>
+                    </div>
+                    <div className="w-24 h-16">
+                        <a href="https://www.amazon.jp/hz/wishlist/ls/8WTKCPWKOJ2N?ref_=wl_share">
+                            <FontAwesomeIcon className="w-24 h-11" icon={faAmazon} />
+                            <span className="block dark:text-gray-400 text-center">
+                                Amazon Wishlist
                             </span>
                         </a>
                     </div>
