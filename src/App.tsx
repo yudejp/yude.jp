@@ -2,7 +2,6 @@ import { RecoilRoot } from 'recoil'
 
 import Mutuals from "./components/Mutuals"
 import Card from "./components/Card"
-import Misc from "./components/Misc"
 import VerticalMenu from "./components/VerticalMenu"
 import HorizontalMenu from "./components/HorizontalMenu"
 import LanguageMenu from "./components/LanguageMenu"
@@ -59,7 +58,6 @@ export default function App() {
             <div className={`sticky h-screen`} style={{ opacity: cardOpacity, marginTop: `-200px` }}>
               <div id="card" className="fixed py-5 -mt-20" style={{ top: `${cardY}px` }}>
                 <Card />
-                <Misc />
               </div>
             </div>
 
