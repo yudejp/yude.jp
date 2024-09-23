@@ -116,7 +116,7 @@ export default function Mutuals() {
             </a>
             <a href="https://haxibami.net">
                 <span className={`${noImageBanner}`}>
-                    mythfinder
+                    神話募集中
                 </span>
             </a>
             <a href="https://donabe8898.dev">
