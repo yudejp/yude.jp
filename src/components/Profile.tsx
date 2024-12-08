@@ -44,11 +44,11 @@ export default function Profile() {
                         </time>
                         <h3 className="text-lg font-semibold dark:text-white">
                             <a href="https://www.iij.ad.jp/">
-                                Internet Initiative Japan Inc.
+                                {t("iij")}
                             </a>
                         </h3>
                         <p className="text-base font-normal dark:text-gray-400">
-                            見習い
+                            {t("iij-work")}
                         </p>
                     </li>
                     <li className="mb-2 ms-4">
@@ -76,12 +76,6 @@ export default function Profile() {
 
                 <h2 className="text-2xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("licenses")}</h2>
                 <ul className="max-w-md space-y-1 ml-5 list-disc list-inside dark:text-gray-400">
-                    <li>
-                        プロジェクトセカイ カラフルステージ！ feat. 初音ミク フルコンボ楽曲 (MASTER) 300 曲 ({t("year/month", { year: 2024, month: localizedMonth(4) })})
-                    </li>
-                    <li>
-                        倉吉八幡宮 おみくじ 大吉 ({t("year/month", { year: 2023, month: localizedMonth(1) })})
-                    </li>
                     <li>
                         IPA 基本情報技術者 ({t("year/month", { year: 2022, month: localizedMonth(4) })})
                     </li>

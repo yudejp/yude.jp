@@ -24,6 +24,8 @@
         "sent_error": "发送时出现问题: ",
         "name": "句柄名称",
         "body": "文本",
-        "send": "发送"
+        "send": "发送",
+        "iij": "Internet Initiative Japan Inc.",
+        "iij-work": "学徒工程师"
     }
 }

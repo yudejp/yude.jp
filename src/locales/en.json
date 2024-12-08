@@ -24,6 +24,8 @@
         "sent_error": "Error occured while sending your message: ",
         "name": "Name",
         "body": "Message body",
-        "send": "Send"
+        "send": "Send",
+        "iij": "Internet Initiative Japan Inc.",
+        "iij-work": "Apprentice network engineer"
     }
 }
