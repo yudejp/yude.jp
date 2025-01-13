@@ -165,6 +165,44 @@ export default function Mutuals() {
                     height={60}
                 />
             </a>
+            <a href="https://108jiminy.jp/">
+                <img
+                    alt="108jiminy.jp"
+                    src="./mutual-links/108jiminy.png"
+                    className={`${globalBanner}`}
+                    width={234}
+                    height={60}
+                />
+            </a>
+            <a href="https://cordx.cx/">
+                <span className={`${noImageBanner}`}>
+                    cordx.cx
+                </span>
+            </a>
+            <a href="https://aboutme.jugesuke.net/">
+                <span className={`${noImageBanner}`}>
+                    Jugesuke's Website
+                </span>
+            </a>
+            <a href="https://www.3qe.us/">
+                <span className={`${noImageBanner}`}>
+                    3qe.us
+                </span>
+            </a>
+            <a href="https://swawa.dev/">
+                <img
+                    alt="swawa-yu"
+                    src="./mutual-links/swawa.webp"
+                    className={`${globalBanner}`}
+                    width={234}
+                    height={60}
+                />
+            </a>
+            <a href="https://yuimaru.dev/">
+                <span className={`${noImageBanner}`}>
+                    yuimaru
+                </span>
+            </a>
         </Marquee>
     )
 }
