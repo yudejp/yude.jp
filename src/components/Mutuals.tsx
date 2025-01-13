@@ -138,6 +138,33 @@ export default function Mutuals() {
                     rz7.dev
                 </span>
             </a>
+            <a href="https://anya.jp/anya">
+                <img
+                    alt="anya"
+                    src="./mutual-links/anya.gif"
+                    className={`${globalBanner}`}
+                    width={234}
+                    height={60}
+                />
+            </a>
+            <a href="https://mikanixonable.github.io/">
+                <img
+                    alt="月面植物園"
+                    src="./mutual-links/mikanixonable.png"
+                    className={`${globalBanner}`}
+                    width={234}
+                    height={60}
+                />
+            </a>
+            <a href="https://dimden.dev/">
+                <img
+                    alt="dimden's hotel"
+                    src="https://dimden.dev/services/images/88x31.gif"
+                    className={`${globalBanner}`}
+                    width={234}
+                    height={60}
+                />
+            </a>
         </Marquee>
     )
 }
