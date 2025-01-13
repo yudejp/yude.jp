@@ -203,6 +203,36 @@ export default function Mutuals() {
                     yuimaru
                 </span>
             </a>
+            <a href="https://nekosemi96.com/">
+                <span className={`${noImageBanner}`}>
+                    ねこせみ郡一丁目
+                </span>
+            </a>
+            <a href="https://poyo.me/">
+                <span className={`${noImageBanner}`}>
+                    そすうぽよ(prime)のページ
+                </span>
+            </a>
+            <a href="https://kuina.ch/">
+                <span className={`${noImageBanner}`}>
+                    くいなちゃん
+                </span>
+            </a>
+            <a href="https://riq0h.jp/">
+                <span className={`${noImageBanner}`}>
+                    点と接線。
+                </span>
+            </a>
+            <a href="https://sksat.net/">
+                <span className={`${noImageBanner}`}>
+                    sksat
+                </span>
+            </a>
+            <a href="https://sno2wman.net/">
+                <span className={`${noImageBanner}`}>
+                    SnO2WMaN.net
+                </span>
+            </a>
         </Marquee>
     )
 }
