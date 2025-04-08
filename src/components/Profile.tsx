@@ -27,7 +27,7 @@ export default function Profile() {
                 <ul className="space-y-1 list-inside mt-2 ml-5">
                     <li className="items-center">
                         <span className="dark:text-gray-300"><FontAwesomeIcon icon={faCake} />&nbsp;
-                            <span className="dark:text-gray-50">{t("2001/11/19")}</span> {t("birth", { age: "22" })}</span>
+                            <span className="dark:text-gray-50">{t("2001/11/19")}</span> {t("birth", { age: "23" })}</span>
                     </li>
                     <li className="items-center">
                         <span className="dark:text-gray-300"><FontAwesomeIcon icon={faMapPin} />&nbsp;&nbsp;<span className="dark:text-gray-50">{t("location")}</span></span>
@@ -76,6 +76,9 @@ export default function Profile() {
 
                 <h2 className="text-2xl font-semibold dark:text-gray-200 mt-2 mb-1 ml-1">{t("licenses")}</h2>
                 <ul className="max-w-md space-y-1 ml-5 list-disc list-inside dark:text-gray-400">
+                    <li>
+                        ITIL® 4 Foundation ({t("year/month", { year: 2025, month: localizedMonth(3) })})
+                    </li>
                     <li>
                         IPA 基本情報技術者 ({t("year/month", { year: 2022, month: localizedMonth(4) })})
                     </li>
