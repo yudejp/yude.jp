@@ -175,9 +175,13 @@ export default function Mutuals() {
                 />
             </a>
             <a href="https://cordx.cx/">
-                <span className={`${noImageBanner}`}>
-                    cordx.cx
-                </span>
+                <img
+                    alt="cordx.cx"
+                    src="./mutual-links/cordx.png"
+                    className={`${globalBanner}`}
+                    width={234}
+                    height={60}
+                />
             </a>
             <a href="https://aboutme.jugesuke.net/">
                 <span className={`${noImageBanner}`}>
