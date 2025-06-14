@@ -202,6 +202,15 @@ export default function Mutuals() {
                     height={60}
                 />
             </a>
+            <a href="https://yuriko.co.nz/">
+                <img
+                    alt="yuriko"
+                    src="./mutual-links/yuriko.png"
+                    className={`${globalBanner}`}
+                    width={234}
+                    height={60}
+                />
+            </a>
             <a href="https://yuimaru.dev/">
                 <span className={`${noImageBanner}`}>
                     yuimaru
