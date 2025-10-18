@@ -1,11 +1,27 @@
+---
+import appleTouchIcon from '../assets/apple-touch-icon-180x180.png';
+import icon192 from '../assets/icon-192x192.png';
+---
+
 <!doctype html>
-<html lang="en">
+<html lang="ja">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>yude.jp</title>
+		<link rel="apple-touch-icon" type="image/png" href={appleTouchIcon.src}>
+		<link rel="icon" type="image/png" href={icon192.src}>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Asset&display=swap&text=yude" rel="stylesheet">
+		<meta property="og:title" content="yude のページ">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://www.yude.jp/">
+		<meta property="og:image" content={icon192.src}>
+		<meta property="og:site_name" content="yude.jp">
+		<meta property="og:locale" content="ja_JP">
 	</head>
 	<body>
 		<slot />
@@ -15,8 +31,8 @@
 <style>
 	html,
 	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
+		margin-inline: auto;
+		min-width: 320px;
+		font-family: sans-serif;
 	}
 </style>
