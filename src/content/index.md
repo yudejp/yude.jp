@@ -32,7 +32,7 @@
 - [株式会社 インターネットイニシアティブ](https://www.iij.ad.jp/) (2024/4 -)
     - パブリッククラウドにおける HaaS レイヤーの開発、改善
 
-- [広島市立大学 情報科学部 情報工学科](https://www.cne.info.hiroshima-cu.ac.jp/) (2020/4 - 2023/3)
+- [広島市立大学 情報科学部 情報工学科](https://www.cne.info.hiroshima-cu.ac.jp/) (2020/4 - 2024/3)
     - 学士 (情報工学)
     - [センシング講座 ネットワークソフトウェア研究グループ](http://www.nsw.info.hiroshima-cu.ac.jp/)
     - [舟阪研究室](https://funahcu.github.io/funalab/)
