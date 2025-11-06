@@ -7,21 +7,20 @@
 
 |  サービス | 識別子 |
 |---|---|
-| 電子メール | [`i@yude.jp`](mailto:i@yude.jp) |
-| GitHub | [yude](https://github.com/yude) |
-| Fediverse | [@yude@mstdn.soine.site](https://mstdn.soine.site/@yude) |
-| Scrapbox | [油田](https://scrapbox.io/yude) |
-| Discord | [yude](https://discordapp.com/users/116124230243975173) |
-| Twitter | [@yude_jp](https://x.com/yude_jp) |
-| Zenn | [yude](https://zenn.dev/yude) |
-| VRChat | [yude](https://vrcprofile.com/p/yude) |
-| Telegram | [@yudejp](https://t.me/yudejp) |
-| Steam | [yudejp](https://steamcommunity.com/id/yudejp) |
-| Twitch | [yudejp](https://twitch.tv/yudejp) |
-| Annict | [yude](https://annict.com/yude) |
-| Spotify | [yude1119](https://open.spotify.com/user/yude1119) |
-| PGP 公開鍵 | [`3745 F270 DB4E 8975 6B07 62BE EB0F E5D9 25C4 A968`](https://github.com/yude.gpg) |
-| 読書メーター | [yude (1004442)](https://bookmeter.com/users/1004442) |
+| ✉️ 電子メール | [`i@yude.jp`](mailto:i@yude.jp) |
+| 🐈 GitHub | [yude](https://github.com/yude) |
+| 🐘 Fediverse | [@yude@mstdn.soine.site](https://mstdn.soine.site/@yude) |
+| 🗒️ Scrapbox | [油田](https://scrapbox.io/yude) |
+| ☎️ Discord | [yude](https://discordapp.com/users/116124230243975173) |
+| 💻 Zenn | [yude](https://zenn.dev/yude) |
+| 👓 VRChat | [yude](https://vrcprofile.com/p/yude) |
+| ✈️ Telegram | [@yudejp](https://t.me/yudejp) |
+| 🎮 Steam | [yudejp](https://steamcommunity.com/id/yudejp) |
+| 🎥 Twitch | [yudejp](https://twitch.tv/yudejp) |
+| 🖼️ Annict | [yude](https://annict.com/yude) |
+| 🎵 Spotify | [yude1119](https://open.spotify.com/user/yude1119) |
+| 🔑 PGP 公開鍵 | [`3745 F270 DB4E 8975 6B07 62BE EB0F E5D9 25C4 A968`](https://github.com/yude.gpg) |
+| 📕 読書メーター | [yude (1004442)](https://bookmeter.com/users/1004442) |
 
 ### サービス
 
