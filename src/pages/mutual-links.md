@@ -2,29 +2,35 @@
 layout: "../layouts/Layout.astro"
 ---
 
+# 相互リンク
+
 [戻る](../)
 
-### ![yude.jp のバナー](../assets/banner.png)
+## バナー
 
-- arkw.net: https://arkw.net
+![yude.jp のバナー](../assets/banner.png)
 
-    <img alt="arkw.net" src="../mutual-links/arkwnet.webp" height="100px">
+## リンク
 
-- kirby3ds: https://exout.net/~kirby3ds/
+- Arakawa Laboratory: https://arkw.net
 
-    ![kirby3ds](../assets/mutual-links/kirby3ds.webp)
+    <img alt="Arakawa Laboratory" src="../mutual-links/arkwnet.webp" height="100px">
 
-- kris.fail: https://kris.fail
+- カービィ★KIRBYの家: https://exout.net/~kirby3ds/
 
-    ![kris.fail](../assets/mutual-links/kris_fail.webp)
+    ![カービィ★KIRBYの家](../assets/mutual-links/kirby3ds.webp)
 
-- KusaReMKN: https://kusaremkn.com
+- KRIS.FAIL: https://kris.fail
 
-    ![KusaReMKN](../assets/mutual-links/kusaremkn.webp)
+    ![KRIS.FAIL](../assets/mutual-links/kris_fail.webp)
 
-- nona-takahara: https://nona-takahara.github.io/
+- KusaReMKN.com: https://kusaremkn.com
 
-    ![nona-takahara](../assets/mutual-links/nona-takahara.webp)
+    ![KusaReMKN.com](../assets/mutual-links/kusaremkn.webp)
+
+- こーげんやさい: https://nona-takahara.github.io/
+
+    ![こーげんやさい](../assets/mutual-links/nona-takahara.webp)
 
 - pepepper: https://www.pepepper.net
 
@@ -34,17 +40,13 @@ layout: "../layouts/Layout.astro"
 
     ![qqey.net](../assets/mutual-links/qqeynet.webp)
 
-- sasakulab.com: https://sasakulab.com
+- Sasakulab.com: https://sasakulab.com
 
-    ![sasakulab.com](../assets/mutual-links/sasakulab.webp)
+    ![Sasakulab.com](../assets/mutual-links/sasakulab.webp)
 
-- nullnyat: https://nullnyat.nca10.moe/
+- 豪族.net: https://powerful.family/
 
-    ![nullnyat](../assets/mutual-links/nullnyat.webp)
-
-- powerfulfamily: https://powerfulfamily.net/
-
-    ![powerfulfamily](../assets/mutual-links/powerfulfamily.webp)
+    ![豪族.net](../assets/mutual-links/powerfulfamily.webp)
 
 - Zopfcode: https://zopfco.de/
 
@@ -62,7 +64,7 @@ layout: "../layouts/Layout.astro"
 
 - rz7.dev: https://rz7.dev
 
-- anya: https://anya.jp/anya
+- anya: https://anya.jp/
 
   ![anya](../assets/mutual-links/anya.gif)
 
@@ -86,13 +88,13 @@ layout: "../layouts/Layout.astro"
 
 - 3qe.us: https://www.3qe.us/
 
-- swawa-yu: https://swawa.dev/
+- すわわゆのホームページ: https://swawa.dev/
 
-  ![swawa-yu](../assets/mutual-links/swawa.webp)
+  ![すわわゆのホームページ](../assets/mutual-links/swawa.webp)
 
-- yuriko: https://yuriko.co.nz/
+- 泣かないで、ゆり子: https://yuriko.co.nz/
 
-  ![yuriko](../assets/mutual-links/yuriko.png)
+  ![泣かないで、ゆり子](../assets/mutual-links/yuriko.png)
 
 - yuimaru: https://yuimaru.dev/
 
