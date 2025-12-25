@@ -39,6 +39,7 @@
 
 ### 資格 / 免許 / テストスコア
 
+- [IPA 応用情報技術者](https://www.ipa.go.jp/shiken/kubun/ap.html) (2025/12)
 - [高度ITアーキテクト育成協議会 (AITAC) STEP1](https://aitac.jp/) (2025/3)
 - [ITIL® 4 Foundation](https://peoplecert.jp/ITIL4_FND.html) (2025/2)
 - [IPA 基本情報技術者](https://www.ipa.go.jp/shiken/kubun/fe.html) (2022/4)
