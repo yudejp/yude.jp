@@ -2,6 +2,7 @@
 import appleTouchIcon from '../assets/apple-touch-icon-180x180.png';
 import icon192 from '../assets/icon-192x192.png';
 import "../styles/global.css";
+const { frontmatter } = Astro.props;
 ---
 
 <!doctype html>
@@ -12,7 +13,7 @@ import "../styles/global.css";
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<meta name="generator" content={Astro.generator} />
-		<title>yude.jp</title>
+		<title>{frontmatter?.title ? `${frontmatter?.title} - yude.jp` : 'yude.jp'}</title>
 		<link rel="apple-touch-icon" type="image/png" href={appleTouchIcon.src}>
 		<link rel="icon" type="image/png" href={icon192.src}>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
@@ -26,6 +27,10 @@ import "../styles/global.css";
 	</head>
 	<body>
 		<slot />
+		<footer style="text-align: center;">
+			<p>&copy; 2014 - 2026 yude <code>&lt;i@yude.jp&gt;</code></p>
+			<img src="https://moe-counter-cf.yude.workers.dev/yude.jp:home" height="100rem" />
+		</footer>
 	</body>
 </html>
 
