@@ -1,5 +1,6 @@
 ---
 layout: "../layouts/Layout.astro"
+title: "相互リンク"
 ---
 
 # 相互リンク
