@@ -7,6 +7,8 @@ title: "相互リンク"
 
 [戻る](../)
 
+- まだ相互ではないかもしれません
+
 ## バナー
 
 ![yude.jp のバナー](../assets/banner.png)
@@ -72,10 +74,6 @@ title: "相互リンク"
 - 月面植物園: https://mikanixonable.github.io/
 
   ![月面植物園](../assets/mutual-links/mikanixonable.png)
-
-- dimden's hotel: https://dimden.dev/
-
-  ![dimden's hotel](https://dimden.dev/services/images/88x31.gif)
 
 - 108jiminy.jp: https://108jiminy.jp/
 
