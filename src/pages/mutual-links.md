@@ -31,9 +31,9 @@ title: "相互リンク"
 
     ![KusaReMKN.com](../assets/mutual-links/kusaremkn.webp)
 
-- こーげんやさい: https://nona-takahara.github.io/
+- のなさばどっとねっと: https://nonasaba.net/
 
-    ![こーげんやさい](../assets/mutual-links/nona-takahara.webp)
+    ![のなさばどっとねっと](../assets/mutual-links/nonasaba.png)
 
 - pepepper: https://www.pepepper.net
 
