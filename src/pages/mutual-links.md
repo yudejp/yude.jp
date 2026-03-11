@@ -83,6 +83,10 @@ title: "相互リンク"
 
   ![cordx.cx](../assets/mutual-links/cordx.png)
 
+- h4y4bus4.com: https://www.h4y4bus4.com/
+
+  ![www.h4y4bus4.com](../assets/mutual-links/hayabusa.png)
+
 - Jugesuke's Website: https://aboutme.jugesuke.net/
 
 - 3qe.us: https://www.3qe.us/
