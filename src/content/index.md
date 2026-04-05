@@ -9,7 +9,7 @@
 |---|---|
 | ✉️ 電子メール | [`i@yude.jp`](mailto:i@yude.jp) |
 | 🐈 GitHub | [yude](https://github.com/yude) |
-| 🐘 Fediverse | [@yude@mstdn.soine.site](https://mstdn.soine.site/@yude) |
+| 🐘 Fediverse | [@yude@misskey.y2e.org](https://misskey.y2e.org/@yude) |
 | 🗒️ Scrapbox | [油田](https://scrapbox.io/yude) |
 | ☎️ Discord | [yude](https://discordapp.com/users/116124230243975173) |
 | 🛍️ Amazon Wishlist | [yude のほしい物リスト](https://www.amazon.jp/hz/wishlist/ls/8WTKCPWKOJ2N?ref_=wl_share) |
