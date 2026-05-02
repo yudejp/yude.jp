@@ -83,9 +83,9 @@ title: "相互リンク"
 
   ![cordx.cx](../assets/mutual-links/cordx.png)
 
-- h4y4bus4.com: https://www.h4y4bus4.com/
+- www.2haya.net: https://www.2haya.net/
 
-  ![www.h4y4bus4.com](../assets/mutual-links/hayabusa.png)
+  ![www.2haya.net](../assets/mutual-links/2haya.png)
 
 - Jugesuke's Website: https://aboutme.jugesuke.net/
 
