@@ -10,8 +10,8 @@
 | ✉️ 電子メール | [`i@yude.jp`](mailto:i@yude.jp) |
 | 🐈 GitHub | [yude](https://github.com/yude) |
 | 🐘 Fediverse | [@yude@misskey.y2e.org](https://misskey.y2e.org/@yude) |
-| 🗒️ Scrapbox | [油田](https://scrapbox.io/yude) |
 | ☎️ Discord | [yude](https://discordapp.com/users/116124230243975173) |
+| #️⃣ SimpleX | [yude](https://smp12.simplex.im/a#vC0sEfQMohdofi34eIEcWye-HIQ294JlfPqV7op_Qq0)
 | 🛍️ Amazon Wishlist | [yude のほしい物リスト](https://www.amazon.jp/hz/wishlist/ls/8WTKCPWKOJ2N?ref_=wl_share) |
 | 💻 Zenn | [yude](https://zenn.dev/yude) |
 | 👓 VRChat | [yude](https://vrcprofile.com/p/yude) |
